@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   padding:0px;
+   margin:0px;
+}
+body{
+   height: 100vh;
+   width: 100vw;
+}
+.main-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+}
+.container{
+   width: 80%;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 10px;
+   padding: 20px;
+}
+  
+.usertable{
+   width: 80%;
+   background-color: bisque;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin-top: 20px;
+   margin-right: 20px;
+}
+.usertable thead tr th{
+   text-align: center;
+   background-color: rgb(4, 4, 84);
+   color: aliceblue;
+}
+.usertable tbody tr td{
+   text-align: center;
+}
+.linkbtn{
+   margin: 10px;
+   padding:7px;
+   background-color:rgb(3, 3, 103);
+   color: azure;
+   border-radius: 10px;
+   text-decoration: none;
+
+}
+.actionbtn{
+   padding: 3px 10px 3px 10px;
+   margin: 5px;
+   cursor: pointer;
+   background-color: red;
+   color: aliceblue;
+   border: 0;
+}
+.addcontainer{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   padding: 30px;
+   text-align: center;
+  background-color: rgb(3, 3, 103);
+}
+.from_container{
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   background-color:white;
+   
+}
+.from_input{
+   display: flex;
+   flex-direction: column;
+}
+.from_input label{
+   margin-top: 10px;
+   text-align: left;
+}
+.from_input input{
+   
+   outline: 0;
+}
+.add_btn{
+   margin-top: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+   padding:5px 10px 5px 10px ;
+   width: 100%;
+   background-color:  rgb(3, 3, 103);
+   color: white;
+}
+.heading{
+   color:white;
+   margin-bottom: 10px;
+}
+.Backbtm{
+   width: auto;
+   height: auto;
+   color: white;
+   padding: 10px;
+   margin:10px;
+
+}
