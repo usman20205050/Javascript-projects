@@ -6,6 +6,7 @@ import './index.css'
 import Adduser from './components/Adduser.jsx'
 import Home from './components/Home.jsx'
 import Edith from './components/Edith.jsx'
+import  {Toaster} from "react-hot-toast";
 const route = createBrowserRouter([
   {
     path:"",
@@ -16,7 +17,7 @@ const route = createBrowserRouter([
     element: <Adduser/>
   },
   {
-    path:"/edith",
+    path:"/edith/:id",
     element:<Edith/>
   },
   {
@@ -27,9 +28,9 @@ const route = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+       <Toaster/>
     <RouterProvider router = {route}>
     <App />
     </RouterProvider>
-
   </React.StrictMode>,
 )
